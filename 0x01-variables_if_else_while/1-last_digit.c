@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - enrt point
+ * main - entry point
  *
  * Return: Always 0 (success)
 */
@@ -16,17 +16,17 @@ int main(void)
 
 	if (n == 0)
 	{
-		printf("%d is zero\n", n);
+		printf("%i is zero\n", n);
 	}
 
 	else if (n < 0)
 	{
-		printf("%d is negative\n", n);
+		printf("%i is negative\n", n);
 	}
 
 	else
 	{
-		printf("%d is zero\n", n);
+		printf("%i is zero\n", n);
 	}
 
 	return (0);
