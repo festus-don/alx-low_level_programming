@@ -18,7 +18,6 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-	
 	else if (n > 1)
 	{
 		printf("%d is positive\n", n);
