@@ -11,10 +11,10 @@ int main(void)
 
 	for(digit = 0; digit < 10; ++digit)
 	{
-		printf("digit", digit);
+		putchar(digit);
 	}
 
-	printf("\n");
+	putchar('\n');
 
 	return (0);
 }
