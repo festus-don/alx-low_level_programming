@@ -2,10 +2,10 @@
 
 /**
  * times_table - prints the time table
- *
+ * @n: number being checked
  * Returns: Always 0
  */
-void times_table(void)
+void times_table(int n)
 {
 	int num, mult, prod;
 
