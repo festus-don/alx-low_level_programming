@@ -1,10 +1,10 @@
 #include "main.h"
 
- /**
-  * print_sign - return 0 letter not lowercase, 1 letter lowercase
-  * the int n to print
-  *
-  * Return: Alway 0
+/**
+ * print_sign - return 0 letter not lowercase, 1 letter lowercase
+ * @n: number being printed
+ *
+ * Return: Always 0
  */
 int print_sign(int n)
 {
@@ -21,6 +21,6 @@ int print_sign(int n)
 	else
 	{
 		_putchar('-');
-		return (-1);
-	}
+	return (-1);
+}
 }
