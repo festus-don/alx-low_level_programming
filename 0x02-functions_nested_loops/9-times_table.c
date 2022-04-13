@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * times_table - prints the time table
- * @n: number being checked
+ * print_times_table - prints the time table
+ *
  * Returns: Always 0
  */
-void times_table(int n)
+void print_times_table(void)
 {
 	int num, mult, prod;
 
